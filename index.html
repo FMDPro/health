@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Consultation Funnel Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            padding: 20px;
+            background-color: #ff7043;
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .subheadline {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+        .cta {
+            margin: 20px 0;
+        }
+        .cta button {
+            background-color: #ff7043;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background-color: #e64a19;
+        }
+        .offer {
+            margin: 20px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .form {
+            margin: 30px 0;
+        }
+        .form input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form button {
+            background-color: #ff7043;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form button:hover {
+            background-color: #e64a19;
+        }
+        .testimonials {
+            margin: 30px 0;
+        }
+        .testimonials h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .testimonial {
+            margin: 10px 0;
+            font-style: italic;
+            color: #666;
+        }
+        .images {
+            margin: 20px 0;
+        }
+        .images img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Rejuvenate, Lose Weight, Stop Inflammation, High Cholesterol, High Blood Pressure, and Diabetes Naturally!</h1>
+        </div>
+        <p class="subheadline">Book a Free Consultation Today and Discover the Path for a Healthier 2025.</p>
+        <div class="form">
+            <h2>Sign Up for Updates and Offers</h2>
+            <form action="send_email.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="cta">
+            <button onclick="window.location.href='https://calendly.com/draoliveira'">Schedule Your Free Consultation</button>
+        </div>
+        <p class="offer">Free initial consultation or a discount on the first session.</p>
+        <div class="testimonials">
+            <h2>What Our Clients Are Saying</h2>
+            <p class="testimonial">"I've never felt better! The treatments have changed my life." - Jane D.</p>
+            <p class="testimonial">"Lowered my blood pressure and improved my energy levels in weeks." - Mike S.</p>
+            <p class="testimonial">"I lost 15 pounds naturally and reduced my inflammation." - Sarah T.</p>
+        </div>
+        <div class="images">
+            <img src="your-treatment-space.jpg" alt="Treatment Space">
+            <img src="your-treatment-results.jpg" alt="Treatment Results">
+        </div>
+    </div>
+</body>
+</html>
